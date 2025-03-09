@@ -3,7 +3,7 @@
 <body>
     <input id="ticketInput" placeholder="Enter ticket">
     <button onclick="addTicket()">Add</button>
-    <div id="ticketList"></div>
+   
     <script>
         function addTicket() {
             let input = document.getElementById("ticketInput");
